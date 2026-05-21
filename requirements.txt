@@ -1,0 +1,38 @@
+# Runtime dependencies for all Python code under this Github folder.
+# Exported from the local conda environment `NAS`.
+# Python version used: 3.11.11.
+#
+# Note: torch and dgl are CUDA 12.1 builds in the NAS environment.
+# If installation from this file fails on another machine, install the
+# matching PyTorch/DGL wheels for that machine's CUDA version first.
+
+numpy==1.26.4
+scipy==1.15.2
+networkx==3.4.2
+SQLAlchemy==1.4.0
+greenlet==3.2.4
+psycopg2-binary==2.9.6
+
+torch==2.1.0+cu121
+torch-geometric==2.6.1
+torchdata==0.7.0
+dgl==2.2.1+cu121
+
+jax==0.8.0
+jaxlib==0.8.0
+ml_dtypes==0.5.3
+opt_einsum==3.4.0
+pyqubo==1.5.0
+
+aiohttp==3.11.14
+filelock==3.13.1
+fsspec==2025.3.0
+Jinja2==3.1.6
+pandas==2.2.3
+psutil==5.9.0
+pyparsing==3.2.1
+PyYAML==6.0.2
+requests==2.32.3
+sympy==1.13.3
+tqdm==4.67.1
+typing_extensions==4.12.2

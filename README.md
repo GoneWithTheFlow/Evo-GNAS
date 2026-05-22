@@ -54,7 +54,7 @@ setsid python run_differentiable_search.py -n ds1 -g 0 > log_ds1.log 2>&1 &
 | G55 | 9960 | 9979 | 9906 | <u>10138</u> | 10116 | 10135 | **10162** |
 | G70 | <u>9456</u> | 9346 | 8268 | 9421 | 9319 | 9363 | **9514** |
 
-> **Note**: Bold numbers denote the best performance, and underlined numbers denote the second-best performance.
+> **Note**: Bold numbers denote the best performance.
 
 ### Results on MIS
 
@@ -66,7 +66,7 @@ setsid python run_differentiable_search.py -n ds1 -g 0 > log_ds1.log 2>&1 &
 | PI-GNN | <u>49.0</u> | <u>76.7</u> | <u>96.7</u> | <u>189.0</u> |
 | **Evo-GNAS** | **49.2** | **77.2** | **97.1** | **190.3** |
 
-> **Note**: $n$ denotes the number of nodes in the graph. Bold numbers denote the best performance, and underlined numbers denote the second-best performance.
+> **Note**: $n$ denotes the number of nodes in the graph. Bold numbers denote the best performance.
 
 
 

@@ -114,6 +114,8 @@ def get_dspace_describe(gene: str):
     params_list = get_params_list_by_units(gene_units)
     for i in range(len(params_list)):
         if params_list[i][0] == 1:
+            params_list[i] = params_list[i][:2]
+        elif params_list[i][0] == 2:
             params_list[i] = params_list[i][:4]
 
     ds_describe = "-".join([",".join([str(i) for i in params]) for params in params_list])
